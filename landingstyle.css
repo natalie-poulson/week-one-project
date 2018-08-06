@@ -8,7 +8,7 @@ p {
     font-family: 'Lato', sans-serif;
 }
 /* Navigation////////////////////////// */
-.navbar {
+.navbar-toggler  {
     display:none;
 }
 nav ul {
@@ -239,7 +239,7 @@ footer p {
 }
 /* iPad///////////////////// */
 @media  screen and (max-width: 768px) {
-    .navbar {
+    .navbar-toggler  {
         display:none;
     }
     nav li a {
@@ -386,15 +386,18 @@ footer p {
     footer p {
         font-size: .9em
     }
+    .fa {
+        color:white;
+    }  
     .navbar-toggler {
-        position:absolute;
-        top:2em;
+        display:grid;
+        position:absolute; 
+         top:2em;
         left:1em;
     }
     .fa {
         color:white;
     }  
-
     .issue img {
         width:25vw;
         height:auto;
